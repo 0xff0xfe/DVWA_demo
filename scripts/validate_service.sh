@@ -1,3 +1,3 @@
 #!/bin/bash
-# Stop Apache server before deployment
-systemctl stop apache2
+# Check if Apache server is running
+systemctl status apache2 | grep 'active (running)' || exit 1
