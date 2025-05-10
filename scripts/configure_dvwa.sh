@@ -19,3 +19,4 @@ FLUSH PRIVILEGES;
 "
 cd /var/www/dvwa
 sudo chmod -R 777 /var/www/html/hackable/uploads/
+sudo chmod -R 777 /var/www/html/dvwa
